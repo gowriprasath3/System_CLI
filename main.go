@@ -1,6 +1,6 @@
 package main
 
-import "system_cli/cmd"
+import "systemcli/cmd"
 
 func main() {
 	cmd.Execute()

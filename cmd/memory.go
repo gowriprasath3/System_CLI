@@ -19,7 +19,3 @@ var memoryCmd = &cobra.Command{
 		fmt.Printf("Memory Usage: %.2f%% (%s / %s)\n", vmStat.UsedPercent, formatGB(vmStat.Used), formatGB(vmStat.Total)) // fmt.Printf("Total Memory: %d, Memory used in percentage: %2.f, Memory used: %d", vmStat.Total, vmStat.UsedPercent, vmStat.Used)
 	},
 }
-
-func init() {
-	log.Println("memory init...")
-}

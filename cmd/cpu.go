@@ -19,7 +19,3 @@ var cpuCmd = &cobra.Command{
 		fmt.Printf("CPU Usage: %.2f%%\n", cpuPercent[0])
 	},
 }
-
-func init() {
-	log.Println("cpu init...")
-}

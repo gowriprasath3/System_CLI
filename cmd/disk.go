@@ -48,7 +48,3 @@ var diskCmd = &cobra.Command{
 func formatGB(b uint64) string {
 	return fmt.Sprintf("%.2f GB", float64(b)/1024/1024/1024)
 }
-
-func init() {
-	log.Println("disk init...")
-}

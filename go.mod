@@ -1,4 +1,4 @@
-module system_cli
+module systemcli
 
 go 1.24.4
 
