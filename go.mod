@@ -1,4 +1,4 @@
-module weather_cli
+module system_cli
 
 go 1.24.4
 

@@ -1,6 +1,6 @@
 package main
 
-import "weather_cli/cmd"
+import "system_cli/cmd"
 
 func main() {
 	cmd.Execute()
